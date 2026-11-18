@@ -9,9 +9,9 @@ int main(void){
         return 0;
         
     }
-    for(int i=1;;i++){
-        if(i>num)break;
-        if(i%3==0||i%5==0)continue;sum+=i;
+    for(int cou=1;;cou++){
+        if(cou>num)break;
+        if(cou%3==0||cou%5==0)continue;sum+=cou;
         
     }
     /*計算した合計の値を出力*/
